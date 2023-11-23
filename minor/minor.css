@@ -1,0 +1,93 @@
+body{
+    background-image: url(ab6.jpeg);
+    /* background-size:cover;
+  background-position: center;
+  
+
+
+    /* background-position:center;
+    background-size:cover;*/ 
+    background-size: cover; background-position: center; background-attachment: fixed;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width:300px;
+    height:280px;
+    display: inline-block;
+    border-radius: 120px;
+    border-style: dotted;
+    border-width: 7px;
+    border-color:black rgb(175, 58, 0) ;
+    vertical-align: middle;
+    margin-bottom: 2%;
+}
+
+h2{
+    font-family: anc;
+  }
+h1{
+    font-family: anc;
+    text-align: center;
+    padding: 3%;
+
+}
+h6{
+    font-family: anc;
+    font-weight: 200;
+    font-size: small;
+}
+.content
+{
+    display: inline-block;
+    width: 600px;
+    vertical-align: middle;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right:3% ;
+}
+.icon{
+    text-align-last: right;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
+@font-face{font-family: anc;src: url(font\ 1.ttf) ;}
+.abc{
+    text-align: center;
+    margin-top: 5%;
+   
+}
+.abcd{
+    /* background-image: url(ab5.jpg); */
+    height: 75px;
+    font-family: anc;
+    font-size: 20px;
+    margin-left:  5%;
+    margin-right:5% ;
+   
+}
+
+footer{
+    font-family: anc;
+    font-size: 35px;
+    border: none;
+    text-align:center;
+    vertical-align: text-bottom;
+     padding-top: 60px;
+     position: scroll;
+     
+   }
+   a{
+    text-decoration: none;
+   }
+.abcde::-webkit-scrollbar{
+    display: none;
+}
+           
+
+
